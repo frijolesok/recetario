@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mi pagina de Recetario Lopez Hernandez Emiliano y Bejarano Salcido Gael Abelardo</title>
+    <link rel="stylesheet" type="text/css" href="css_receta.css"/>
+</head>
+<body background="fondo2.jpg">
+
+	<table border="solid" cellspacing="5px" align="justify" bgcolor="#9c316a">
+
+    <td>
+
+
+	    <h2><a href="index.html" style="color: white">indice </a></h2>
+
+        <h1 align="center">Formulario de registro de Bejarano Salcido Gael Abelardo</h1>
+
+        <p align="center">Escribe tus datos de usario en el siguiente formulario y por ultimo da click en enviar.</p>
+
+        <div class="cuerpo" align="center">
+            <form action="mailto:gael.bejarano.s@gmail.com" method="POST">
+                <p>
+                    <label for="nombre cliente">nombre cliente:</label>
+                    <input type="text" name="nombre cliente" maxlength="32" placeholder="Teclea el nombre del cliente">
+                </p>
+    
+                <p>
+                    <label for="tel">orden:</label>
+                    <select name="paquete" size="1">
+
+                        <option value="seleccione">seleccione una orden</option>
+                        <option value="tamales">tamales</option>
+                        <option value="espagueti">espagueti en salsa verde</option>
+                        <option value="milanesa">milanesa rellena</option>
+                        <option value="pie">pie de galleta y limon</option>
+                        <option value="dip">dip cremoso de chipotle</option>
+                        <option value="lasana">lasaña</option>
+                        <option value="sopa">sopa de tortilla</option>
+                        <option value="pizza">pizza</option>
+                        <option value="molletes">molletes</option>
+
+                    </select>
+                </p>
+
+                <p>
+                    <label for="sexo">tipo de orden:</label>
+                    <input type="radio" name="tipo" value="comida" checked>comida<br>
+                    <input type="radio" name="tipo" value="bebida">bebida<br>
+                    <input type="radio" name="tipo" value="postre" checked>postre<br>
+                    <input type="radio" name="tipo" value="aperitivo" checked>aperitivo<br>
+                </p>
+
+                <p>
+                    <label for="mesa">mesa:</label>
+                    <input type="int" name="mesa" maxlength="4" placeholder="Teclea el numero de la mesa">
+                </p>
+    
+                <p>
+                    <label for="pago">pago:</label><br>
+                    <input type="radio" name="pago" value="efectivo" checked>efectivo<br>
+                    <input type="radio" name="pago" value="tarjeta">tarjeta<br>
+                </p>
+
+                <p>
+                    <label for="precio">precio de la orden:</label>
+                    <select name="paquete" size="1">
+
+                        <option value="seleccione">seleccione uno</option>
+                        <option value="tamales">tamales: 20.00 pesos</option>
+                        <option value="espagueti">espagueti: 200.00 pesos</option>
+                        <option value="milanesa">milanesa: 210.00 pesos</option>
+                        <option value="pie">pie: 395.00 pesos</option>
+                        <option value="dip">dip: 22.00 pesos</option>
+                        <option value="lasana">lasaña: 205.00 pesos</option>
+                        <option value="sopa">sopa: 195.00 pesos</option>
+                        <option value="pizza">pizza: 387.00 pesos</option>
+                        <option value="molletes">molletes: 219.00 pesos</option>
+
+                    </select>
+                </p>
+
+                <p>
+                    <label for="clientes">clientes:</label>
+                    <input type="int" name="clientes" maxlength="4" placeholder="Teclea el numero de clientes en una mesa">
+                </p>
+
+        
+
+                <p>
+                    <label for="meseros">mesero que sirvio a la mesa:</label><br>
+                    <input type="radio" name="tipo" value="juan" checked>juan<br>
+                    <input type="radio" name="tipo" value="maria">maria<br>
+                    <input type="radio" name="tipo" value="jose" checked>jose<br>
+                    <input type="radio" name="tipo" value="martina" checked>martina<br>
+                </p>
+
+                <p>
+                    <label for="propina">propina:</label>
+                    <input type="int" name="propina" maxlength="4" placeholder="Teclea el numero de la propina que dejo el cliente en la mesa">
+                </p>
+
+                <p>
+                    <input type="submit" name="enviar" value="enviar">
+                    <input type="reset" name="limpiarform" value="Borrar Datos de Formulario">
+                </p>
+            </form>
+        </div>
+
+    </td>
+    </table>
+
+</body>
+</html>
